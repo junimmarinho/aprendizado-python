@@ -1,0 +1,12 @@
+def lembrete(saudacao):
+    def saudar(nome):
+            return f'{saudacao}, {nome}'
+    return saudar
+
+bomdia = lembrete('bom dia')
+
+
+nomes = ['maria', 'tati', 'raphaela', 'mariane']
+
+for nome in nomes:
+    print(bomdia(nome))
