@@ -1,0 +1,26 @@
+def mult(*args):
+    
+    total = 1
+   
+    for numero in args:
+        
+        total = numero * total
+    
+    print(total)
+
+def Impar(x):
+    impar = x % 2
+    if impar == 0:
+        print('este numero é par')
+    
+    else:
+        print('este numero é impar')
+    
+
+
+
+
+mult(5,6)
+
+
+Impar(x=4)
